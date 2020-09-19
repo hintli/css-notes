@@ -1,0 +1,169 @@
+//Söz dizimi
+<style> p { color:blue; }
+
+//Internal Css
+<style> p { color:blue; }
+
+//Inline Css
+h1 style="border: 1px solid red;">
+
+//External Css
+<link rel="stylesheet" href="style.css"> 
+
+//Uygulama TODO
+
+//IDs&Classes
+<p id="paragraf" class="red f22">
+# id . class ->id bir,class birden fazla
+
+//Uygulama - IDs&Classes
+
+//Group Selectors
+1 : (*)     => tüm etiketler 
+    2 : (p)    => tüm p etiketleri
+	3 : (div p) => div içindeki tüm p etiketleri
+	4 : (div,p) => tüm div ve tüm p etiketleri
+	5 : (div > p) => üst etiketi div olan tüm p 
+	6 : (p ~ div)=> p ile aynı seviyede tüm div 
+	7 : (p + div)=> p etiketinden sonra gelen div 
+
+//Attribute Selectors
+    p[title]
+    p[title="third paragraph"]
+    p[title~="forth"]
+    a[href^="https"]
+    a[href$="com"]
+    a[href="https://www.example.net"][target="_blank"]
+    input[type="text"]
+
+//Pseudo Selectors
+/*Pseudo Element*/
+p::first-line
+p.about::first-line
+p::first-letter
+p::after
+/*Pseudo Class*/
+ul li:first-child
+ul li:last-child
+ul li:nth-of-type(even)
+ul li:nth-of-type(odd)
+
+a:link
+a:visited
+a:hover
+a:active
+span
+div:hover span
+
+//Class Inherit
+a{
+	color: inherit;
+}
+#inherit span{
+	color: inherit;
+}
+
+//Uygulama-Selectors
+
+//Uygulama Tablo Biçimlendirme
+
+//Divs ->kapsayıcı
+
+//Uygulama Divs
+
+//Colors
+background-color: rgba(255, 99, 71, 0.4)
+color: 	#FF6347;
+
+//Floating Images
+float: left;
+overflow: auto;
+
+//Floating Divs
+float: right;
+clear: both;
+display: block;
+
+//Uygulamalı Floating
+
+//Display
+Display : none | inline | block | inline-block
+
+//Uygulamalı Display
+
+//Positioning
+
+//Uygulamalı Positioning -1
+
+//Uygulamalı Positioning -2
+
+//Margin
+
+//Padding
+
+//Border
+border-left: 5px solid green;
+
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: red;
+border-top-left-radius: 15px;
+
+//Box Sizing
+box-sizing: border-box;
+box-sizing: content-box;
+
+//Uygulama-Box Model
+
+
+//Fonts
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+
+//Icons
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+fas fa-check-square
+
+//Text Biçimlendirme
+text-decoration: none;
+text-transform:capitalize;
+font-size: 22px;
+line-height: 150%;
+word-spacing: 3px;
+letter-spacing: 1px;
+
+//Text Hizalama
+text-align: center; //left,right,justify
+
+//Uygulama - Text
+
+//Liste Biçimlendirme
+list-style-type: none;
+
+//Link ve Buton biçimlendirme
+opacity: 0.7;
+
+//Uygulama - Link ve Buton Biçimlendirme
+
+//Box Shadow
+box-shadow: 10px 10px 20px 2px rgba(0,0,0,.3);
+yatay,yukardan aşağı,blur,blur yüksekliği
+//Transitions - Geçiş Efektleri
+
+//Uygulama - Cards
+
+//Uygulama - Box Shadow 
+
+//Uygulama Navbar
+
+//Uygulama Image Galery
+
+//Uygulama Background Images
+
+//Uygulama Background Images
+
+//Uygulama Form Biçimlendirme
+
+//Uygulama - Tooltip
+
+//Uygulama Açılır Yatay Menu
